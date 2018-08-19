@@ -1,3 +1,1 @@
-# JavaScript
-# JavaScript
-# JavaScript
+# 자바스크립트에 관한 정보를 저장합니다.
