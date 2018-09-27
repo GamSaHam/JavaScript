@@ -34,30 +34,31 @@
 // 문자열 길이를 알고 싶으면 length 프로퍼티를 사용하라
 // console.log("Hello World".length);
 
-var s = "Hello,World";
+// example
+// var s = "Hello,World";
 
-console.log(s.charAt(0)); // "H"
-console.log(s.charAt(s.length-1)); // "d"
-console.log(s.substring(1,4)); // "ell"
-console.log(s.slice(1,4)); // "ell"
-console.log(s.slice(-3)); // "rld"
+// console.log(s.charAt(0)); // "H"
+// console.log(s.charAt(s.length-1)); // "d"
+// console.log(s.substring(1,4)); // "ell"
+// console.log(s.slice(1,4)); // "ell"
+// console.log(s.slice(-3)); // "rld"
 
 
-console.log(s.substr(1,4)); // "ello" -- 시작점과, 문자열 갯수
-console.log(s.substring(1,4)); // "ell" -- 시작점과, 끝나는 지점
+// console.log(s.substr(1,4)); // "ello" -- 시작점과, 문자열 갯수
+// console.log(s.substring(1,4)); // "ell" -- 시작점과, 끝나는 지점
 
-// substring 과 slice 는 똑같이 동작하지만 음수가 들어가면 동작이 달라진다.
+// // substring 과 slice 는 똑같이 동작하지만 음수가 들어가면 동작이 달라진다.
 
-console.log(s.slice(-3,-2));
-console.log(s.substring(-2, 3)); // 마이너스가 0으로 취급된다.
+// console.log(s.slice(-3,-2));
+// console.log(s.substring(-2, 3)); // 마이너스가 0으로 취급된다.
 
-console.log(s.indexOf("l"));
-console.log(s.lastIndexOf("l"));
+// console.log(s.indexOf("l"));
+// console.log(s.lastIndexOf("l"));
 
-console.log(s.indexOf("l",4)); // 문자열 4이후 l이 나온 위치
-console.log(s.split(",")[0]); //  문자열 , 나누기
-console.log(s.replace("o", "t")); // 문자 하나를 t로 전환
-console.log(s.replace(/o/gi, "t")); // 모든 문자 "o"는 "t"로 전환
+// console.log(s.indexOf("l",4)); // 문자열 4이후 l이 나온 위치
+// console.log(s.split(",")[0]); //  문자열 , 나누기
+// console.log(s.replace("o", "t")); // 문자 하나를 t로 전환
+// console.log(s.replace(/o/gi, "t")); // 모든 문자 "o"는 "t"로 전환
 
 
 
