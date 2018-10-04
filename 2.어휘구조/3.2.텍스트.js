@@ -61,6 +61,69 @@
 // console.log(s.replace(/o/gi, "t")); // 모든 문자 "o"는 "t"로 전환
 
 
+// 3.2.4. 패턴 매칭
+// 자바스크립트는 문자 패턴을 나타내는 객체를 생성하기 위해 RexExp() 객체를 생성한다.
+// 자바스크립트 정규표현식은 펄(Perl)위 구문을 따른다.
+
+var rex;
+
+// rex = /^HTML/; // HTML
+// rex = /[1-9][0-9]*/; // 0이 아닌 숫자
+// rex = /\bjavascript\b/i; // 대소문자 구문이 없는 javascript
+// console.log(rex.test("avascript"));
+
+// var text = "testing: 1, 2, 3"; // 간단한 문자열
+// var pattern = /\d+/g; // 하나 이상의 모든 숫자와 일치
+// console.log(pattern.test(text)); // 일치하는 문자가 있는지
+// console.log(text.search(pattern)); // 일치하는 문자의 인덱스 반환
+// console.log(text.match(pattern)); // 일치하는 문자의 배열을 반환
+// console.log(text.replace(pattern, "#")); // 정규표현식으로 replace
+// console.log(text.split(/\D+/));
+
+//3.3. 불리언 값
+// 불리언 값은 true , false 로 표현된다.
+// var a = 20;
+// a == 10;
+
+// console.log(a);
+
+// undefined;
+// null;
+// 0;
+// -0;
+// NaN;
+// "";
+
+// 다음은 모두 불리언 false로 변한다.
+// if(null == undefined){
+// 	console.log("== operation");
+// }
+
+// var o = 10;
+// if(o){
+// 	console.log("Variable o is defined");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
