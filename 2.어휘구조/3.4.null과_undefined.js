@@ -1,4 +1,4 @@
-// null은 보통 아무 값도 갖지 않음을 가리킬 때 사용되며, 특별한 값을 평가하는 키워듸이다.
+// null은 보통 아무 값도 갖지 않음을 가리킬 때 사용되며, 특별한 값을 평가하는 키워드이다.
 // typeof null 연산자를 사용하면 object 라고 출력된다.
 console.log(typeof null);
 
@@ -8,7 +8,7 @@ console.log(typeof null);
 
 // undefined는 초기화되지 않은 변수나, 존재하지 않은 객체 프로퍼티나 배열의 원소를 접근할려고
 // 할떄 발생하는 값이다.
-// 반환겂이 없는 함수의 반환값으며
+// 반환값이 없는 함수의 반환값으며
 var f = function(){
 
 };
@@ -26,7 +26,7 @@ console.log(f());
 // undefined 가 반환되는데 고유값임을 말한다.
 console.log(typeof undefined);
 
-// 이러한 차이에도 불구하고 null과 undefined는 둘다 값이 없을을 가리코고
+// 이러한 차이에도 불구하고 null과 undefined는 둘다 값이 없을을 가리키고
 // null과 undefined둘다 프로퍼티와 메서드를 가지고 있지 않기 때문에 []
 // 사용하면 TypeError가 발생한다.
 
