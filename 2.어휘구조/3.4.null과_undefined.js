@@ -2,7 +2,7 @@
 // typeof null 연산자를 사용하면 object 라고 출력된다.
 console.log(typeof null);
 
-// null은 객체가 없을 을 뜻하는 특수한 객체 값으로 생각할 수 있다.
+// null은 객체가 없음을 뜻하는 특수한 객체 값으로 생각할 수 있다.
 
 // undefined는 null보다 심한 부재상태를 나타낸다
 
