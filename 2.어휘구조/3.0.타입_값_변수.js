@@ -66,6 +66,7 @@
 // Infinity, NaN 전역변수로 미리 정의된다.
 // ECMAScript5 에서는 Infinity와 NaN을 읽기 전용 값으로 정의한다.
 // Number 객체는 Infinity NaN을 따로 상수로 정의되어있다.
+// Number형의 데이터 타입은 부동소수점 숫자이다.
 
 /*
 Infinity;
