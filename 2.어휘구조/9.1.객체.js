@@ -44,6 +44,7 @@ console.log(car1 instanceof Car)
 car1.shift('D')
 console.log(car1)
 
+
 const Car2 = (function(){
     const carProps = new WeakMap();
 
@@ -78,7 +79,7 @@ console.log(typeof Es6Car)
 console.log(typeof Es5Car)
 
 // 프로토 타입
-
+console.log(car1.shift === Car.prototype.shift)
 
 
 
