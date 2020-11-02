@@ -116,11 +116,6 @@ try {
     console.log('perform clenup here')
 }
 
-const book = [
-     "Twinkle, twinkle, little bat!"
-    ,"How I wonder what you're at!"
-    ,"Up above the world you fly,"
-]
 
 
 
